@@ -15,10 +15,10 @@
                   <input type="text" name="display"> 
                 </div>
                 <div>
-                    <input type="button" value="AC">
-                    <input type="button" value="DEL">
-                    <input type="button" value=".">
-                    <input type="button" value="÷">
+                    <input type="button" value="AC" onclick="display.value =''">
+                    <input type="button" value="DEL" onclick="display.value = display.value.toString().slice (0,-1)">
+                    <input type="button" value="." onclick="display.value ='.'">
+                    <input type="button" value="÷" onclick="display.value +='÷'">
 
                 </div>
 
