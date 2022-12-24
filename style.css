@@ -30,6 +30,7 @@
     font-size: 20px;
     cursor: pointer;
     margin: 10px;
+    color: #6CA6C1;
 
 }
 form .display{
@@ -41,7 +42,8 @@ form .display{
 form .display input{
     text-align: right;
     flex: 1;
-    font-size 45px;
+    font-size:45px;
     box-shadow: none;
+
 
 }
